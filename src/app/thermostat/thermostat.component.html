@@ -1,0 +1,10 @@
+<igx-radial-gauge height="400px" width="400px"
+value="{{targetValue}}"
+interval="5"
+minimumValue="{{minValue}}"
+maximumValue="{{maxValue}}">
+<igx-radial-gauge-range startValue="{{maxValue ? (maxValue/1.5) : 0}}"
+                        endValue="{{maxValue}}"
+                        brush="red">
+</igx-radial-gauge-range>
+</igx-radial-gauge>
