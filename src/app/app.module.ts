@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IgxRadialGaugeModule } from 'igniteui-angular-gauges';
 import { ThermostatComponent } from './thermostat/thermostat.component';
+import { ThermostatCustomComponent } from './thermostat-custom/thermostat-custom.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ThermostatComponent
+    ThermostatComponent,
+    ThermostatCustomComponent
   ],
   imports: [
     BrowserModule,
